@@ -468,5 +468,38 @@ span{
 }
 footer{
     width: 980px;
-    padding-left: 18%;
+    margin-left: 18%;
+   
+}
+.footer-head{
+    display: flex;
+    align-items: center;
+}
+.footer-head img{
+    height: 18px;
+    margin-right: 24px;
+}
+.footer-head p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+.footer-cont{
+    display: flex;
+}
+.col1{
+    width: 195px;
+    margin-right: 20px;
+    list-style: none;
+}
+.lihead{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.libody{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
 }
