@@ -1,0 +1,472 @@
+body{
+    margin: 0;
+}
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: auto;
+    width: 100%;
+}
+.whft{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.blft{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.grft{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(68, 68, 68);
+}
+.header 
+{
+    background: rgba(0, 0,0, .8);
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 70%;
+    height: 44Px;
+
+}
+.menu a{
+    margin-left: 21px;
+    margin-right: 21px;
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu a:hover{
+    color: white;
+}
+.menu img{
+    width: 20px;
+    height: 20px;
+    
+}
+.main-body{
+    width: 100%;
+    height: auto;
+    background: rgb(244, 244, 244);
+
+}
+.wrapper{
+    background: white;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.productred{
+    padding-top: 1px;
+    height: 26px;
+    padding-right: 16px;
+}
+.wrapper p{
+    color: rgba(0, 0,0, .65);
+}
+.wrapper a{
+    text-decoration: none;
+    color: rgb(41, 164, 213);
+}
+.rightarrow{
+    padding-left: 140px;
+    height: 18px;
+}
+.leftarrow{
+    padding-right: 140px;
+    height: 18px;
+}
+.Store-head{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 248px;
+    margin-left: 17.7%;
+    margin-right: 17.7%;
+}
+.heading{
+    height: 104px;
+    width: 645px;
+    margin-top: 84px;
+    margin-bottom: 60px;
+}
+.span1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0px;
+}
+span{
+    margin: 0px;
+}
+.span2{
+    color: rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+
+}
+.helpbar{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 198px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.photo img{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+.help-details{
+margin-left: 16px;
+
+}
+.help-details p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+
+}
+.help-details a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(56, 159, 227);
+}
+.product-cards{
+ 
+    width:80%;
+    height: 236px;
+    padding-left: 18%;
+}
+.product-img{
+    width: 100%;
+    display: flex;
+    margin: 0;
+ padding-left: 0;
+}
+.product-img li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 146px;
+    width: 148px;
+    list-style: none;
+  
+  
+
+}
+.product-img img{
+    height: 78px;
+    width: 120px;
+}
+.product-img img:hover{
+    scale: 1.2 ;
+    
+}
+.shelf1{
+    height: 572px;
+    width:  82%;;
+    padding-left: 18%;
+    padding-bottom: 54px;
+   
+}
+.shelf-head{
+    margin-bottom: 18px;
+}
+.span3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 0px;
+}
+span{
+    margin: 0px;
+}
+.span4{
+    color: rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.latestcol{
+    display: flex;
+    padding: 12px;
+}
+.lat1{
+    position: relative;
+    margin-right: 16px;
+}
+.lat1 img{
+    border-radius: 12px;
+}
+.rfcard{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+.devicename{
+    font-size: 12px;
+    font-weight: 550;
+}
+.caption{
+    font-size: 26px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.price{
+    font-size: 16px;
+   margin-top: 12px;
+}
+.shelf2{
+    height: 572px;
+    width:  82%;;
+    padding-left: 18%;
+    padding-bottom: 54px;
+}
+.lat2{
+    position: relative;
+    margin-right: 16px;
+    margin-top: 48  px;
+}
+.lat2 img{
+    border-radius: 12px;
+}
+.help-col2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.caption2{
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.shelf3{
+    height: 312px;
+    width:  76%;;
+    padding-left: 18%;
+    padding-bottom: 54px;
+}
+.difference{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.dif{
+    height: 210px;
+    width: 283px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    background: white;
+    border-radius: 20px;
+    
+}
+.green{
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #5fd24a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.black{
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue{
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: rgb(51, 117, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.purple{
+    font-size: 22px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: rgb(175, 13, 225);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.icon3{
+    width: 200px;
+}
+.shelf4{
+    height: 572px;
+    width:  82%;;
+    padding-left: 18%;
+    padding-bottom: 54px;
+}
+.productredcol{
+    display: flex;
+}
+.pred1{
+    position: relative;
+}
+.pred1 img{
+    
+    border-radius: 20px;
+    margin-right: 20px;
+
+}
+.prdcard{
+    position: absolute;
+    top: 48px;
+    left: 48px;
+}
+.pred2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 500px;
+    margin-right: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.pred2 img{
+    margin-top: 72px;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 0px;
+}
+.coloropt{
+    display: flex;
+}
+.coloropt li{
+    list-style: none;
+    margin-right: 6px;
+    margin-left: 6px;
+    
+}
+.pred2 ul{
+    padding: 0px;
+    margin-top: 0px;
+}
+.coloropt img{
+    height: 12px;
+    width: 12px;
+    
+}
+.prd1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.prdprc{
+    font-size: 14px;
+    color: rgba(0, 0,0, .8);
+    margin-bottom: 24px;
+}
+.shelf5{
+    height: 572px;
+    width:  82%;;
+    padding-left: 18%;
+    padding-bottom: 54px;
+}
+.headphones{
+    display: flex;
+    
+}
+.device1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 253px ;
+    height: 440px;
+    padding: 30px;
+    background: white;
+    margin-right: 24px;
+    border-radius: 20px;
+}
+.device1 img{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.dvcname{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.dvcprc{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0,0, .8);
+
+}
+.quklnks{
+    width: 925px;
+    margin-left: 18%;
+    height: 125px;
+}
+.qukhead{
+    width: 980px;
+    height: 32px;
+    padding-bottom: 20px;
+}
+.qukhead h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin: 0;
+    
+}
+.linkss{
+    display: flex;
+}
+.ordrsts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 42px;
+    margin-right: 24px;
+    border-radius: 21px;
+    background-color: lightgray;
+}
+.ordrsts a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black    ;
+}
+.footnotes{
+    margin-left: 18%; 
+    margin-right: 18%; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-bottom: 54px;
+}
+footer{
+    width: 980px;
+    padding-left: 18%;
+}
